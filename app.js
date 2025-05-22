@@ -10,6 +10,7 @@ const coins = [
   { code: 'PYG', label: 'PYG (Guaraní Paraguayo)' },
   { code: 'BOB', label: 'BOB (Boliviano)' },
   { code: 'VES', label: 'VES (Bolívar Venezolano)' },
+  { code: 'TES', label: 'Prueba Validacion' },
 ];
 
 const amountInput = document.getElementById('amount');
