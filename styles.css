@@ -1,0 +1,75 @@
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h1 {
+  margin: 0 0 1rem 0;
+  font-size: 1.3rem;
+  color: #4a90e2;
+}
+
+.field-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.field-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+  color: #777;
+}
+
+.field-group input,
+.field-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.field-group.inline {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button#convert {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button#convert:hover {
+  background-color: #287fe5;
+}
+
+.result {
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
